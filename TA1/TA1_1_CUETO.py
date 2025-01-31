@@ -1,3 +1,5 @@
+#Display the number of vowels, consonants, spaces, and other characters given an input string
+
 stringWord = input("Enter a word: ")
 i = stringWord
 
