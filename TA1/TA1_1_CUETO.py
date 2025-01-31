@@ -10,7 +10,6 @@ whitespace = " "
 countVowels = 0
 countConsonants = 0
 countWhitespace = 0
-countDigits = 0
 countSymbols = 0
 
 for i in range(0, len(stringWord)):
