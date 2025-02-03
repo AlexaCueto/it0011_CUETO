@@ -8,7 +8,7 @@ age = int(input("Enter age: "))
 contactNo = input("Enter contact number: ")
 course = input("Enter course: ")
 
-infoString = f"Full Name: {lName} {fName}\nAge: {age}\nContact Number: {contactNo}\nCourse: {course}"
+infoString = f"Full Name: {fName} {lName}\nAge: {age}\nContact Number: {contactNo}\nCourse: {course}"
 
 file1 = open("students.txt", "w")
 W = (infoString)
