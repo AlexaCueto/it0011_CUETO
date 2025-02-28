@@ -2,7 +2,7 @@
 #TW23
 #LIST AND TUPLES
 
-students = []  #Stores student records as tuples
+students = []  #Stores student records as list
 filename = "StudentsRecords"  #Default file for saving and loading records
 
 def openFile():
