@@ -39,7 +39,7 @@ def uniqueWordCounter(statement):
     # Display output
     print("\nUnique Word Count:\n")
     for word in allWords:
-        print(f"{word:<5} - {uniqueWords[word]}")  # left formatting
+        print(f"{word:<10} - {uniqueWords[word]}")  # left formatting
     
     print(f"\nTotal words filtered: {sum(uniqueWords.values())}")
 
