@@ -5,23 +5,23 @@
 def mainMenu(): #Function to display menu
     while True:
         print("\n\t\t--MENU--")
-        print("\t\t1. Divide")
-        print("\t\t2. Exponentiation")
-        print("\t\t3. Remainder")
-        print("\t\t4. Summation")
-        print("\t\t5. Exit")
+        print("\t\t[D] Divide")
+        print("\t\t[E] Exponentiation")
+        print("\t\t[R] Remainder")
+        print("\t\t[F] Summation")
+        print("\t\t[X] Exit")
         
         choice =input("\t\tEnter your choice: ")
         
-        if choice == "1":
+        if choice == "D" or choice == "d":
             division()
-        elif choice == "2":
+        elif choice == "E" or choice == "e":
             exponentiation()
-        elif choice == "3":
+        elif choice == "R" or choice == "r":
             remainder()
-        elif choice == "4":
+        elif choice == "F" or choice =="f":
             summation()
-        elif choice =="5":
+        elif choice =="X" or choice == "x":
             print("\t\tThank you for using the program!")
             break
         else:
